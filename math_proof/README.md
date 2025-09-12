@@ -18,12 +18,12 @@ For any *j > i*,
 
 $$
 \frac{\partial T_j}{\partial M_i}
-=-\\frac{\alpha_i\,T_j}{1-\alpha_i M_i},\qquad
+=-\\frac{\alpha_iT_j}{1-\alpha_i M_i},\qquad
 \frac{\partial T_j}{\partial M_i}=0\ \ \text{for } j \le i.
 $$
 
 **Sketch.** For *j > i*, $T_j=\prod_{k=0}^{j-1}(1-\alpha_k M_k)$ has exactly one factor depending on *M<sub>i</sub>*. Differentiate that factor and regroup:
-$\partial T_j/\partial M_i=-\alpha_i\,T_j/(1-\alpha_i M_i)$. For *j ≤ i*, there is no dependence on *M<sub>i</sub>*.
+$\partial T_j/\partial M_i=-\alpha_iT_j/(1-\alpha_i M_i)$. For *j ≤ i*, there is no dependence on *M<sub>i</sub>*.
 
 ---
 
