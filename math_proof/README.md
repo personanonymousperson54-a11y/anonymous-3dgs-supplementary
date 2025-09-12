@@ -6,6 +6,8 @@ $$
 T_0=1,\quad T_{i+1}=(1-\alpha_i M_i)\,T_i.
 $$
 
+So, the $T_i$ is the fraction of light that reaches Gaussian $i$ after passing through all earlier Gaussians (indices $< i$). It does not include Gaussian $i$ itself.
+
 We also assume small positive constants *ε > 0* for numerical stability.
 
 ---
@@ -16,7 +18,7 @@ For any *j > i*,
 
 $$
 \frac{\partial T_j}{\partial M_i}
-=-\,\frac{\alpha_i\,T_j}{1-\alpha_i M_i},\qquad
+=-\\frac{\alpha_i\,T_j}{1-\alpha_i M_i},\qquad
 \frac{\partial T_j}{\partial M_i}=0\ \ \text{for } j \le i.
 $$
 
@@ -44,7 +46,7 @@ $$
 
 **Derivative of the weights.**
 
-- For *j = i*: *T<sub>i</sub>* is pre-update, so *w<sub>i</sub>* does **not** depend on *M<sub>i</sub>* and $\partial w_i/\partial M_i=0$.
+- For *j = i*: based on what we defined *T<sub>i</sub>* earlier, *w<sub>i</sub>* does **not** depend on *M<sub>i</sub>* and $\partial w_i/\partial M_i=0$.
 - For *j > i*:
 
 $$
@@ -100,7 +102,7 @@ Here *N* is the number of Gaussians; the denominator is a constant w.r.t. *M<sub
 
 **Term-wise derivatives.**
 
-- For *j = i*: since *T<sub>i</sub>* is pre-update and independent of *M<sub>i</sub>*,
+- For *j = i*: based on what we defined *T<sub>i</sub>* earlier, it is independent of *M<sub>i</sub>*,
 
 $$
 \frac{\partial f_i}{\partial M_i}=1\cdot(1-T_i).
