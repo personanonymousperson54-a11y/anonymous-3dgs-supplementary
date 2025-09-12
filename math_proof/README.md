@@ -113,7 +113,7 @@ $$
 $$
 \frac{\partial f_j}{\partial M_i}
 = M_j\left(-\frac{\partial T_j}{\partial M_i}\right)
-=\frac{\alpha_i}{1-\alpha_i M_i}\,M_j T_j,
+=\frac{\alpha_i}{1-\alpha_i M_i}M_j T_j,
 $$
 
 using the shared identity.
@@ -127,8 +127,8 @@ $$
 =\frac{1}{\log(1+N)}
 \left[
 (1-T_i)
-+\frac{\alpha_i}{1-\alpha_i M_i}\,
-\sum_{j>i} M_j\,T_j
++\frac{\alpha_i}{1-\alpha_i M_i}\
+\sum_{j>i} M_jT_j
 \right].
 $$
 
