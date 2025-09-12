@@ -51,8 +51,8 @@ $$
 
 $$
 \frac{\partial w_j}{\partial M_i}
-=-\frac{1}{(\alpha_j T_j+\varepsilon)^2}\,\alpha_j\,\frac{\partial T_j}{\partial M_i}
-=\frac{\alpha_i \alpha_j T_j}{(1-\alpha_i M_i)\,(\alpha_j T_j+\varepsilon)^2},
+=-\frac{1}{(\alpha_j T_j+\varepsilon)^2}\\alpha_j\, \frac{\partial T_j}{\partial M_i}
+=\frac{\alpha_i \alpha_j T_j}{(1-\alpha_i M_i)\(\alpha_j T_j+\varepsilon)^2}
 $$
 
 using the shared identity above.
@@ -63,14 +63,14 @@ using the shared identity above.
 
 $$
 \frac{\partial F_A}{\partial M_i}
-=\frac{1}{S}\left(\frac{\partial \mathrm{Num}}{\partial M_i}-F_A\,\frac{\partial S}{\partial M_i}\right),
+=\frac{1}{S}\left(\frac{\partial \mathrm{Num}}{\partial M_i}-F_A\\frac{\partial S}{\partial M_i}\right),
 $$
 
 with
 
 $$
 \frac{\partial \mathrm{Num}}{\partial M_i}
-=w_i+\sum_{j>i} M_j\,\frac{\partial w_j}{\partial M_i},\quad
+=w_i+\sum_{j>i} M_j\\frac{\partial w_j}{\partial M_i},\quad
 \frac{\partial S}{\partial M_i}
 =\sum_{j>i}\frac{\partial w_j}{\partial M_i}.
 $$
@@ -80,10 +80,10 @@ $$
 $$
 \frac{\partial F_A}{\partial M_i}
 =\frac{1}{S}\left[
-w_i+\sum_{j>i}(M_j-F_A)\,\frac{\partial w_j}{\partial M_i}
+w_i+\sum_{j>i}(M_j-F_A)\\frac{\partial w_j}{\partial M_i}
 \right],\quad
 \frac{\partial w_j}{\partial M_i}
-=\frac{\alpha_i \alpha_j T_j}{(1-\alpha_i M_i)\,(\alpha_j T_j+\varepsilon)^2},\ \ (j>i).
+=\frac{\alpha_i \alpha_j T_j}{(1-\alpha_i M_i)\(\alpha_j T_j+\varepsilon)^2}\ \ (j>i).
 $$
 
 
