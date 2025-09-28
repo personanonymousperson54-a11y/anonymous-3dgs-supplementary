@@ -51,3 +51,17 @@
 
 ## 📚 Math Proofs  
 For the mathematical derivations supporting the forward-design ablations, see the **[Math Proofs](https://github.com/personanonymousperson54-a11y/anonymous-3dgs-supplementary/tree/main/math_proof)** page.
+
+
+---
+
+## 🎬 Demo
+
+<video src="images/demo.mp4" controls playsinline style="max-width:100%; width:720px; height:auto;">
+  Your browser does not support embedded videos. You can download and watch it
+  <a href="images/demo.mp4">here</a>.
+</video>
+
+
+
+
